@@ -7,7 +7,7 @@ let projects = JSON.parse(localStorage.getItem('projects')) || [
 
 let tasks = JSON.parse(localStorage.getItem('tasks')) || [
     { id: 't-1', projectId: 'p-1', title: 'Design Mockups', desc: 'Create Figma designs for homepage', priority: 'High', status: 'completed', due: '2026-10-01' },
-    { id: 't-2', projectId: 'p-1', title: 'Frontend Setup', desc: 'Setup React repository and structure', priority: 'Medium', status: 'in-progress', due: '2026-10-05' },
+    { id: 't-2', projectId: 'p-1', title: 'Frontend Setup--> Changed by Vinodhini', desc: 'Setup React repository and structure', priority: 'Medium', status: 'in-progress', due: '2026-10-05' },
     { id: 't-3', projectId: 'p-2', title: 'API Integration-- Changed by Sulthan', desc: 'Connect auth endpoints', priority: 'High', status: 'todo', due: '2026-09-15' },
     { id: 't-4', projectId: 'p-2', title: 'App Store Submission', desc: 'Prepare screenshots and metadata', priority: 'Low', status: 'todo', due: '' }
 ];
